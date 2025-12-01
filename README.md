@@ -8,37 +8,41 @@ Data was scraped from Flipkart using Python and later cleaned, explored and visu
 
 To explore pricing behaviour of TV products based on brand, inches, technology and year — and identify factors that influence selling price, discount and profitability.
 
-🗂 Dataset Features
+📂 Dataset Features 
 
-Column Name        	 Description
+The dataset contains 470 TV product entries.
+Each record includes the following attributes:
 
-Brand Name	         Name of the TV manufacturer (LG, Sony, Samsung…)
+Brand Name
 
-Model ID	           Unique TV model identifier
+Model ID
 
-LED Model Type	     OLED, QLED, LED, Mini LED, Neo QLED etc.
+LED Model Type (LED / OLED / QLED / Mini LED / Neo QLED etc.)
 
-Year	               Availability/Launch year
+Year of release or availability
 
-Selling              Price	Price displayed on Flipkart
+Selling Price
 
-Cost Price	         Market cost / base product price
+Cost Price
 
-Discount %	         Discount offered by seller
+Discount Percentage
 
-Inches	             Display size of TV panel
+Screen Size (Inches)
 
-Display Technology	Type of screen technology
+Display Technology
 
-📌 Count of Records → 470
-📌 Time Period Covered → 2016 – 2025
+These attributes enable pricing comparison across technology, brand positioning, discount patterns and product specifications.
 
 🛠 Tools & Technologies Used
 
-Step	                                 Tools
-Web Scraping	                Python, Requests, BeautifulSoup
-Storage & Preprocessing	      Pandas, CSV
-Visualization	                Matplotlib, Seaborn
+Python for entire workflow
+
+BeautifulSoup and Requests for scraping
+
+Pandas & NumPy for cleaning and processing
+
+Matplotlib & Seaborn for visual analysis
+
 
 🔥 Key EDA Insights
 
